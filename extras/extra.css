@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+  footer {
+    text-align: center;
+    background-color: DarkSalmon;
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .runner li {
+      padding-top: 15px;
+      margin-bottom: -10px;
+    display: inline-block;
+    justify-content: space-evenly;
+  }
