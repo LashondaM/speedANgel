@@ -16,6 +16,13 @@ body{
     background: black;
 }
 
+nav{
+    background: rgb(21, 24, 44);
+    height: 63px;
+    width: 100%;
+    /* left: 0px; */
+}
+
 /* FOOTER */
 .footer{
     background: rgb(21, 24, 44);
