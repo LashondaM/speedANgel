@@ -26,12 +26,19 @@ body{
 
 .footer .footer-content{
     /* border: 1px solid yellow; */
-    height: 150px;
+    height: 300px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
 }
 
 .footer .footer-bottom{
     background: rgb(32, 39, 56);
-    color: rgb(255, 255, 255);
+    color: rgb(233, 232, 232);
     height: 50px;
     width: 100%;
     text-align: center;
