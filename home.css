@@ -33,11 +33,16 @@ nav{
     width: 800px;
     height: 450px;
     margin: 0 auto;
-    box-shadow: -10px -10px 20px 0px whitesmoke, 10px 10px 20px 0px rgba(23, 162, 184);
+    box-shadow: -10px -10px 20px 0px whitesmoke, 10px 10px 20px 0px rgb(83, 106, 211);
     /* box-shadow: 9px 9px 0.9em rgba(23, 162, 184), -1em 8px 0.9em whitesmoke; */
     /* box-shadow: 3px 3px red, -1em 0 0.4em olive; */
+    /* rgba(23, 162, 184) */
 }
 
+.img1{
+    width: 800px;
+    height: 450px;
+}
 
 /* FOOTER */
 
