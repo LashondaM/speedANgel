@@ -52,33 +52,71 @@ nav{
 } */
 
 .img2{
-    margin-top: 250px;
     margin-left: 130px;
     height: 500px;
+    /* box-shadow: -10px 10px 20px 0px whitesmoke; */
 }
 
+.ace{
+    padding-top: 290px;
+}
+
+/* put the margins on the divs not the images */
 
 .img3{
     float: right;
-    margin-top: 250px;
     margin-right: 130px;
     height: 500px;
+    /* box-shadow: 10px -10px 20px 0px whitesmoke; */
+
 }
 
+.jack{
+    padding-top: 70px;
+}
+
+/* divider */
 
 .queen{
-    margin-top: 975px;
+    margin-top: 360px;
 }
 
 .img4{
     float: left;
-    margin-top: 0px;
     margin-left: 130px;
     height: 500px;
 }
 
 
 /* falling images end */
+
+
+/* Data home.js start */
+h5{
+    /* text-align: center; */
+}
+
+#features{
+    margin-top: 900px;
+}
+
+.cars{
+    display: inline-block;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.feats{
+    max-width: 320px;
+    min-height: 213px;
+}
+
+/* Data home.js end */
+
 
 /* FOOTER */
 
