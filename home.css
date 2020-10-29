@@ -97,7 +97,7 @@ h5{
 }
 
 #features{
-    margin-top: 900px;
+    margin-top: 1200px;
 }
 
 .cars{
@@ -120,6 +120,9 @@ h5{
 
 /* FOOTER */
 
+footer{
+    margin-top: 500px;
+}
 
 /* LOOK UP HOW TO DO MEDIA QUERIES */
 /* 
