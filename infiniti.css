@@ -82,3 +82,30 @@ nav{
 body{
     background: rgb(243, 243, 243);
 }
+
+/* scrolling sideways effect */
+
+.wrapper{
+    min-height: 110px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 250px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background: #ddd;
+
+}
+
+
+/* .section-3{
+    
+} */
