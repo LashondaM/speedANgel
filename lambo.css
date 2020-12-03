@@ -1,77 +1,93 @@
-/* html, body{
-    min-height: 100%;
-    padding: 0px;
-    margin: 0px;
-    background: gray;
+/* body{
+    background: url(./img/hero-bg.jpg);
+    background-size: cover;
 } */
 
-html{
-    height: 100%;
-}
 
 body{
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: 1fr auto;
-    background: black;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    /* color: #fff; */
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* font-family: luna; */
+    /* transition: all 1s; */
 }
 
-nav{
-    background: rgb(21, 24, 44);
-    height: 63px;
+
+
+
+.home-hero {
+    background-image: url(./img/hero-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 20em 0;
+	color: #FFF;
+}
+
+.container{
     width: 100%;
-    left: 0px;
 }
 
-.navbar-brand{
-    text-transform: uppercase;
+.img2{
+    background: url('https://wallpaperaccess.com/full/315354.jpg');
+	padding: 10em 0;
+    width: 100%;
+    position: relative;
+    position: absolute;
+    transform: translateZ(50%);
+    transition: initial;
+    position: absolute;
+    /* margin-bottom: 500px; */
+    
+    /* margin-top: -2.5%; */
+    /* top: -10%; */
 }
 
 
-/* FOOTER */
-.footer{
-    background: rgb(21, 24, 44);
-    color: whitesmoke;
-    grid-row-start: 2;
-    grid-row-end: 3;
+.container-fluid{
+    /* margin-top: -200px;
+    transform: translateZ(-42px); */
+    /* transform: translateZ(-9.7rem); */
+    transform: scaleZ(200px);
 }
 
-.footer .footer-content{
-    /* border: 1px solid yellow; */
-    height: 200px;
+/* scrolling sideways effect */
+
+.wrapper{
+    min-height: 110px;
+    border: 1px solid #ddd;
     display: flex;
+    overflow-x: auto;
+    margin-top: 500px;
 }
 
-.footer .footer-content .footer-section{
-    flex: 1;
-    padding: 25px;
-    /* border: 1px solid white; */
+.wrapper::-webkit-scrollbar{
+    width: 0;
 }
 
-.footer .footer-bottom{
-    background: rgb(32, 39, 56);
-    color: rgb(233, 232, 232);
-    height: 50px;
-    width: 100%;
+.wrapper .item{
+    min-width: 250px;
+    height: 110px;
+    line-height: 110px;
     text-align: center;
-    /* position: absolute; */
-    bottom: 0px;
-    left: 0px;
-    padding-top: 20px;
+    background: #ddd;
+
 }
 
-/* LOOK UP HOW TO DO MEDIA QUERIES */
 
-@media only screen and (max-width: 767px) {
-    nav {
-        height: 300px;
-        flex-direction: column;
-        text-align: center;
-    }
+/* jumbotron */
 
-    .footer {
-        height: 400px;
-        flex-direction: column;
-        text-align: center;
-    }
+.jumbotron{
+    background: rgb(122, 150, 150);
+    /* height: 280px; */
+}
+
+
+/* navbar */
+
+.navbar{
+    background: whitesmoke;
 }
