@@ -18,12 +18,18 @@ body{
 
 
 
+.parallax--bg,
+.img2 {
+	transition: initial;
+}
+
+
 
 .home-hero {
     background-image: url(./img/hero-bg.jpg);
 	background-size: cover;
 	background-position: center;
-	padding: 20em 0;
+	padding: 25em 0;
 	color: #FFF;
 }
 
@@ -32,19 +38,40 @@ body{
 }
 
 .img2{
-    background: url('https://wallpaperaccess.com/full/315354.jpg');
+    background: url(./img/timeline.png);
+    /* background: url('https://wallpaperaccess.com/full/315354.jpg'); */
 	padding: 10em 0;
     width: 100%;
     position: relative;
     position: absolute;
+    /* transform: translateZ(50%); */
+    position: relative;
+    position: absolute;
+    margin-top: -112px;
+    left: 0;
+    /* margin-top: -2.5%; */
+    /* top: -10%; */
+}
+
+
+/* .img2{
+    background: url('https://wallpaperaccess.com/full/315354.jpg');
+	padding: 10em 0;
+    width: 100%; */
+    /* position: relative;
+    position: absolute;
     transform: translateZ(50%);
     transition: initial;
-    position: absolute;
+    position: absolute; */
     /* margin-bottom: 500px; */
     
     /* margin-top: -2.5%; */
     /* top: -10%; */
-}
+/* } */
+
+/* img{
+    width: 100%;
+} */
 
 
 .container-fluid{
@@ -54,6 +81,23 @@ body{
     transform: scaleZ(200px);
 }
 
+
+/* filler start */
+
+.bigImg{
+    margin-top: 200px;
+    /* border: solid black; */
+}
+
+
+
+
+
+/* filler end */
+
+
+
+
 /* scrolling sideways effect */
 
 .wrapper{
@@ -61,7 +105,7 @@ body{
     border: 1px solid #ddd;
     display: flex;
     overflow-x: auto;
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 .wrapper::-webkit-scrollbar{
