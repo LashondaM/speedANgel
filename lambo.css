@@ -4,6 +4,13 @@
 } */
 
 
+/* pseudo */
+
+/* :root {
+    --color-secondary: #c73838;
+} */
+
+
 body{
     margin: 0;
     padding: 0;

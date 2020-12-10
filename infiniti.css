@@ -109,11 +109,37 @@ body{
 
 /* navbar */
 
-.navbar{
+/* .navbar{ */
     /* background: rgb(144, 197, 221); */
-}
+/* } */
 
 
 /* .section-3{
     
 } */
+
+
+.uno{
+    box-shadow: 4px 4px 6px 5px rgb(206, 206, 206);
+    /* background: rgb(140, 228, 191); */
+
+}
+
+.dos{
+    /* background: rgb(140, 228, 191); */
+    box-shadow: 1px 1px 6px 5px rgb(175, 175, 175);
+    top: -5em;
+    /* margin-top: 500px; */
+}
+
+.space {
+    padding-bottom: 30px;
+}
+
+
+.tres{
+    /* background: rgb(140, 228, 191); */
+    box-shadow: 1px 1px 8px 5px rgb(138, 144, 158);
+    /* top: -5em; */
+    /* margin-top: 500px; */
+}
