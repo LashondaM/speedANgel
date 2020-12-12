@@ -1,141 +1,159 @@
-/* html, body{
-    min-height: 100%;
-    padding: 0px;
-    margin: 0px;
-    background: gray;
-} */
-
-
-/* html{
-    height: 100%;
-} */
-
 body{
+    background: rgb(0, 0, 0);
+}
+
+.jumbotron{
+    margin-top: 150px;
+    margin-bottom: 300px;
     background: black;
-    min-width: 100%;
-    min-height: 100%;
+    filter: blur(.6px);
+    color: white;
+    text-shadow: 0 0 10px rgb(137, 32, 185),
+                 0 0 20px rgb(137, 32, 185),
+                 0 0 40px rgb(137, 32, 185),
+                 0 0 80px rgb(137, 32, 185),
+                 0 0 140px rgb(137, 32, 185);
 }
 
-nav{
-    background: rgba(21, 36, 44, 0.74);
-    height: 63px;
+
+.underline  {
+    position: relative;
+    /* border-bottom: 5px solid brown; */
+     /* padding: 10px; */
+     
+    
+  }
+   /* .underline:hover {
+    /* border-bottom: 5px solid brown; */   
+  .underline::before{
+    content: "";
+    position: absolute;
     width: 100%;
-    left: 0px;
-    margin-bottom: 90px;
+    height: 2px;
+    bottom: 20px;
+    left: 0;
+    /* background-color: brown; */
+    background-color: hsl(0, 0%, 100%);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.8s ease-in-out 0s;
+    box-shadow: 0 0 10px rgb(137, 32, 185),
+                 0 0 20px rgb(30, 0, 163),
+                 0 0 40px rgb(137, 32, 185);
+    /* margin-top: 20px; */
+    /* margin-bottom: -3px; */
+  }
+  
+  .underline:hover::before{
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+
+h2{
+    /* margin-top: 400px; */
+    filter: blur(.6px);
+    color: white;
+    text-shadow: 0 0 10px rgb(116, 32, 185),
+                 0 0 20px rgb(73, 32, 185),
+                 0 0 40px rgb(137, 32, 185);
+                 /* 0 0 80px rgb(137, 32, 185); */
+                 /* 0 0 140px rgb(137, 32, 185); */
 }
 
-.navbar-brand{
-    text-transform: uppercase;
+/* * {
+	box-sizing: border-box;
+	transition: all ease-in-out 250ms;
+}
+
+.lake {
+	transition: initial;
 }
 
 
-.card{
-    width: 800px;
-    height: 450px;
-    margin: 0 auto;
-    box-shadow: -10px -10px 20px 0px whitesmoke, 10px 10px 20px 0px rgb(83, 106, 211);
-    /* box-shadow: 9px 9px 0.9em rgba(23, 162, 184), -1em 8px 0.9em whitesmoke; */
-    /* box-shadow: 3px 3px red, -1em 0 0.4em olive; */
-    /* rgba(23, 162, 184) */
-}
-
-.img1{
-    width: 800px;
-    height: 450px;
-}
-
-/* falling images start */
-
-
-/* .xfall{
-    background: linear-gradient(black, gray, yellow);
+.lake{
+    background-image: url(./img/hero-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 20em 0;
+    color: #FFF;
+	transition: initial;
 } */
 
-.img2{
-    margin-left: 130px;
-    height: 500px;
-    /* box-shadow: -10px 10px 20px 0px whitesmoke; */
+
+
+/* scrolling sideways effect */
+
+.wrapper{
+    min-height: 110px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
 }
 
-.ace{
-    padding-top: 290px;
+.wrapper::-webkit-scrollbar{
+    width: 0;
 }
 
-/* put the margins on the divs not the images */
-
-.img3{
-    float: right;
-    margin-right: 130px;
-    height: 500px;
-    /* box-shadow: 10px -10px 20px 0px whitesmoke; */
-
-}
-
-.jack{
-    padding-top: 70px;
-}
-
-/* divider */
-
-.queen{
-    margin-top: 360px;
-}
-
-.img4{
-    float: left;
-    margin-left: 130px;
-    height: 500px;
-}
-
-
-/* falling images end */
-
-
-/* Data home.js start */
-h5{
-    /* text-align: center; */
-}
-
-#features{
-    margin-top: 1200px;
-}
-
-.cars{
-    display: inline-block;
-    /* flex-direction: column; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-    align-items: center;
+.wrapper .item{
+    min-width: 250px;
+    height: 110px;
+    line-height: 110px;
     text-align: center;
-    margin-right: 50px;
+    background: #ddd;
+
 }
 
-.feats{
-    max-width: 320px;
-    min-height: 213px;
+
+
+/* navbar */
+
+.navbar{
+    background: black;
+    color: white;
+    text-shadow: 0 0 10px rgb(229, 220, 233);
+    /* filter: blur(.005px); */
+    /* float: right; */
 }
 
-/* Data home.js end */
 
+/* 2nd navbar */
 
-/* FOOTER */
-
-footer{
-    margin-top: 500px;
+.nav{
+    text-shadow: 0 0 10px rgb(177, 154, 207);
 }
 
-/* LOOK UP HOW TO DO MEDIA QUERIES */
-/* 
-@media only screen and (max-width: 767px) {
-    nav {
-        height: 300px;
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .footer {
-        height: 400px;
-        flex-direction: column;
-        text-align: center;
-    }
-} */
+/* end 2nd navbar */
+
+
+.uno{
+    box-shadow: 1px 1px 8px 5px rgb(154, 82, 248);
+    /* background: rgb(140, 228, 191); */
+
+}
+
+.dos{
+    /* background: rgb(140, 228, 191); */
+    box-shadow: 1px 1px 6px 5px rgb(175, 175, 175);
+    top: -5em;
+    /* margin-top: 500px; */
+}
+
+.space {
+    padding-bottom: 30px;
+}
+
+
+.tres{
+    /* background: rgb(140, 228, 191); */
+    box-shadow: 1px 1px 8px 5px rgb(138, 144, 158);
+    /* top: -5em; */
+    /* margin-top: 500px; */
+}
+
+
+
+.level2{
+    background-image: linear-gradient(black, white);
+}
