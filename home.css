@@ -8,11 +8,11 @@ body{
     background: black;
     filter: blur(.6px);
     color: white;
-    text-shadow: 0 0 10px rgb(137, 32, 185),
-                 0 0 20px rgb(137, 32, 185),
-                 0 0 40px rgb(137, 32, 185),
-                 0 0 80px rgb(137, 32, 185),
-                 0 0 140px rgb(137, 32, 185);
+    text-shadow: 0 0 10px rgb(32, 85, 185),
+                 0 0 20px rgb(32, 85, 185),
+                 0 0 40px rgb(32, 85, 185),
+                 0 0 80px rgb(32, 85, 185),
+                 0 0 140px rgb(32, 85, 185);
 }
 
 
@@ -111,7 +111,7 @@ h2{
 .navbar{
     background: black;
     color: white;
-    text-shadow: 0 0 10px rgb(229, 220, 233);
+    text-shadow: 0 0 10px rgb(121, 165, 247);
     /* filter: blur(.005px); */
     /* float: right; */
 }
