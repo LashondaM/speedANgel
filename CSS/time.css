@@ -1,0 +1,10 @@
+.wyler-back{
+    background: url(../img/Background\ White\ 50.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 25em 0;
+}
+
+.parallax--bg{
+	transition: initial;
+}

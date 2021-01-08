@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    /* color: #fff; */
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* font-family: luna; */
+    /* transition: all 1s; */
+}
+
+
+
+.parallax--bg,
+.img2 {
+	transition: initial;
+}
+
+
+
+.home-hero {
+    background-image: url(../img/Background\ White\ 50.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 25em 0;
+	color: #FFF;
+}
+
+.container{
+    width: 100%;
+}
+
+.img2{
+    background: url(../img/updatedTime.PNG);
+    /* background: url('https://wallpaperaccess.com/full/315354.jpg'); */
+	padding: 7.8em 0;
+    width: 100%;
+    position: relative;
+    position: absolute;
+    /* transform: translateZ(50%); */
+    /* position: relative;
+    position: absolute; */
+    margin-top: -100px;
+    left: 0;
+    /* margin-top: -2.5%; */
+    /* top: -10%; */
+}
+
+
+
+
+.container-fluid{
+    /* margin-top: -200px;
+    transform: translateZ(-42px); */
+    /* transform: translateZ(-9.7rem); */
+    transform: scaleZ(200px);
+}
+
+
+/* filler start */
+
+.bigImg{
+    margin-top: 200px;
+    /* border: solid black; */
+}
+
+
+
+
+
+/* filler end */
+
+
+
+
+/* scrolling sideways effect */
+
+.wrapper{
+    min-height: 110px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 400px;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 250px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background: #ddd;
+
+}
+
+
+/* jumbotron */
+
+.jumbotron{
+    background: rgb(122, 150, 150);
+    /* height: 280px; */
+}
+
+
+/* navbar */
+
+.navbar{
+    background: whitesmoke;
+}
+
+
+
+/* LOOK UP HOW TO DO MEDIA QUERIES */
+
+/* @media only screen and (max-width: 767px) {
+    nav {
+        height: 300px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer {
+        height: 400px;
+        flex-direction: column;
+        text-align: center;
+    }
+} */
+
