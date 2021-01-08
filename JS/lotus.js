@@ -1,6 +1,6 @@
 $(window).scroll(function(){
     
-    var wScroll = $(window).scrollTop();
+    var wScroll = $(window).scrollTop()*7;
     console.log(wScroll)
 
     // moving background
@@ -9,14 +9,15 @@ $(window).scroll(function(){
 
     // $('.bigImg').css('top', wScroll)
     $('.rolo').css('top', -8 + (wScroll*.005)+'em');
+    $('.container-fluid').css('top', 50 + (wScroll*.005)+'em');
     // $('.container-fluid').css('top' + (wScroll*.005)+'em');
 
 
     // sideways scroll parallax
     // var scroll_position = $(window).scrollTop()*2.5;
-    var scroll_position = $(window).scrollTop()*7;
+    // var scroll_position = $(window).scrollTop()*7;
     $('.container-fluid').css({
-        'background-position-x' : - scroll_position + 'px'
+        'background-position-x' : - wScroll + 'px'
     })
 })
 

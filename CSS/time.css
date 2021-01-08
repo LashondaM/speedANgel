@@ -8,3 +8,19 @@
 .parallax--bg{
 	transition: initial;
 }
+
+.img2{
+    background: url(../img/updatedTime.PNG);
+    /* background: url('https://wallpaperaccess.com/full/315354.jpg'); */
+	padding: 7.8em 0;
+    width: 100%;
+    position: relative;
+    position: absolute;
+    /* transform: translateZ(50%); */
+    /* position: relative;
+    position: absolute; */
+    margin-top: -100px;
+    left: 0;
+    /* margin-top: -2.5%; */
+    /* top: -10%; */
+}
