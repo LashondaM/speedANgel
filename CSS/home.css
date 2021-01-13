@@ -157,3 +157,9 @@ h2{
 .level2{
     background-image: linear-gradient(black, white);
 }
+
+/* .pan{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+} */

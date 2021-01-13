@@ -4,10 +4,10 @@ $(window).scroll(function(){
     console.log(wScroll)
 
     $('.parallax--bg').css('background-position', 
-    'center '+(wScroll*0.75)+'px')
+    'center '+(wScroll*0.4)+'px')
 
 
-    $('.han').css('top', 25 + (wScroll*.005)*10+'em');
+    $('.han').css('top', 24 + (wScroll*.005)*5.5+'em');
 
 
     // $(window).scrollTop();
