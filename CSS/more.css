@@ -1,31 +1,34 @@
 /* media query */
 
-@media screen and (max-width: 767.98px) { 
+@media screen and (max-width: 770px) { 
     
     .han{
         /* background: red; */
         padding-left: 2em;
         padding-top: 3em;
+        position: static;
+        
+        /* margin-left: 5em; */
     }
     
  }
 
-@media screen and (min-width: 770px) { 
+@media screen and (min-width: 991.98px) { 
     
     .img1{
-        padding-top: 3em;
+        padding-top: 8em;
     }
     .img2{
-        padding-left: 19em;
-        padding-top: 3em;
+        /* padding-left: 19em; */
+        padding-top: 8em;
     }
     .img3{
-        padding-left: 41em;
-        padding-top: 3em;
+        /* padding-left: 41em; */
+        padding-top: 8em;
     }
     .img4{
-        padding-left: 62em;
-        padding-top: 3em;
+        /* padding-left: 62em; */
+        padding-top: 8em;
     }
     
  }
@@ -44,7 +47,7 @@
     background: url(../img/Background\ White\ 50.jpg);
 	background-size: cover;
 	background-position: center;
-	padding: -7.8em 0;
+	padding: 7.8em 0;
 }
 
 .parallax--bg{
@@ -69,3 +72,11 @@ img:hover{
 } */
 
 /* chicklets end */
+
+/* in JS, set the top to push right */
+
+/* sideways scroll test */
+
+/* .han{
+    background-position-x: center;
+} */
