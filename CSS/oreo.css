@@ -1,0 +1,218 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+/* .run was here */
+
+
+/* media query */
+
+@media screen and (max-width: 770px) { 
+    
+    body{
+        /* overflow-x: hidden; */
+        overflow-y: scroll;
+    }
+
+    .wyler-back{
+        background: url(../img/Background\ White\ 50.jpg);
+        background-size: 100%;
+        background-position: center;
+        /* padding: 11.7em 0; */
+    }
+    
+
+    .run{
+        flex-wrap: wrap;
+        display: unset;
+    }
+
+    /* .wyler-back{
+        padding: 5em 0;
+        background-size: 10%;
+    } */
+
+    .han{
+        /* background: red; */
+        padding-left: 3em;
+        padding-top: 5em;
+        position: static;
+        
+        /* margin-left: 5em; */
+    }
+    
+ }
+
+@media screen and (min-width: 991.98px) { 
+
+    .wyler-back{
+        background: url(../img/Background\ White\ 50.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 11.7em 0;
+    }
+    
+    
+    .run{
+        /* display: flex; */
+        flex-wrap: nowrap;
+        display: inline-flex;
+        /* white-space: nowrap; */
+        /* justify-content: space-between; */
+        /* padding: 0 -20px; */
+        
+    }
+
+    .img1{
+        padding-top: 8em;
+        padding-left: 3.8em;
+    }
+    .img2{
+        /* padding-left: 19em; */
+        padding-top: 8em;
+    }
+    .img3{
+        /* padding-left: 41em; */
+        padding-top: 8em;
+    }
+    .img4{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img5{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img6{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img7{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img8{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img9{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img10{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img11{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img12{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img13{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img14{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img15{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img16{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img17{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img18{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img19{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img20{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img21{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img22{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img23{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img24{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    .img25{
+        /* padding-left: 62em; */
+        padding-top: 8em;
+    }
+    
+ }
+
+
+/* media query end */
+
+/* .blah{
+    padding-top: 3em;
+    padding-left: 19em;
+    padding-left: 41em;
+    padding-left: 62em;
+} */
+
+/* .wyler-back{
+    background: url(../img/Background\ White\ 50.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 11.7em 0;
+} */
+
+.parallax--bg{
+	transition: initial;
+}
+
+
+/* chicklets start */
+
+img{
+    transition: 1s;
+    margin: 0 -42px;
+}
+
+img:hover{
+    /* z-index: 1; */
+    transform: scale(1.25);
+    transition: 1s;
+}
+
+/* .img1:hover{
+    background-size: 150%;
+} */
+
+/* chicklets end */
+
+/* in JS, set the top to push right */
+
+/* sideways scroll test */
+
+/* .han{
+    background-position-x: center;
+} */
