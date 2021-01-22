@@ -17,13 +17,25 @@ body{
     }
 
     .wyler-back{
-        background: white;
+        background: url(../img/BKG.JPG);
         /* background: url(../img/Background\ White\ 50.jpg); */
         background-size: 100%;
         background-position: center;
         /* padding: 11.7em 0; */
     }
+
+
+    img{
+        transition: 1s;
+        /* margin: 0 -62px; */
+    }
     
+    img:hover{
+        /* z-index: 1; */
+        transform: scale(1.25);
+        /* transition: 1s; */
+    }
+
 
     .run{
         /* flex-wrap: wrap; */
@@ -66,9 +78,28 @@ body{
         
     }
 
+
+    img{
+        transition: 1s;
+        margin: 0 -62px;
+    }
+    
+    img:hover{
+        /* z-index: 1; */
+        transform: scale(1.25);
+        /* transition: 1s; */
+    }
+
+
+    .img0{
+        padding-top: 7em;
+        padding-left: 5em;
+
+    }
+
     .img1{
         padding-top: 7em;
-        padding-left: 3.8em;
+        /* padding-left: 3.8em; */
     }
     .img2{
         /* padding-left: 19em; */
@@ -162,10 +193,6 @@ body{
         /* padding-left: 62em; */
         padding-top: 7em;
     }
-    .img25{
-        /* padding-left: 62em; */
-        padding-top: 7em;
-    }
     
  }
 
@@ -193,16 +220,16 @@ body{
 
 /* chicklets start */
 
-img{
+/* img{
     transition: 1s;
-    margin: 0 -42px;
+    margin: 0 -62px;
 }
 
 img:hover{
-    /* z-index: 1; */
+    z-index: 1;
     transform: scale(1.25);
     transition: 1s;
-}
+} */
 
 /* .img1:hover{
     background-size: 150%;

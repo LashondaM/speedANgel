@@ -10,7 +10,7 @@ $(window).scroll(function(){
 
     $('.han').css('top', + (wScroll*.005)*5.2+'em');
 
-    $('.han').css('right', + (wScroll*.005)*660+'em');
+    $('.han').css('right', + (wScroll*.005)*725+'em');
 
 
 
