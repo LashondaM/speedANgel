@@ -6,10 +6,11 @@ $(window).scroll(function(){
     $('.parallax--bg').css('background-position', 
     'center '+(wScroll*0.15)+'px')
 
+    // $('.parallax--bg').css('top', + (wScroll*.30)*5.2+'em');
 
     $('.han').css('top', + (wScroll*.005)*5.2+'em');
 
-    $('.han').css('right', + (wScroll*.005)*380+'em');
+    $('.han').css('right', + (wScroll*.005)*660+'em');
 
 
 

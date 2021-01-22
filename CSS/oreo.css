@@ -17,7 +17,8 @@ body{
     }
 
     .wyler-back{
-        background: url(../img/Background\ White\ 50.jpg);
+        background: white;
+        /* background: url(../img/Background\ White\ 50.jpg); */
         background-size: 100%;
         background-position: center;
         /* padding: 11.7em 0; */
@@ -25,7 +26,7 @@ body{
     
 
     .run{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         display: unset;
     }
 
@@ -66,104 +67,104 @@ body{
     }
 
     .img1{
-        padding-top: 8em;
+        padding-top: 7em;
         padding-left: 3.8em;
     }
     .img2{
         /* padding-left: 19em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img3{
         /* padding-left: 41em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img4{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img5{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img6{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img7{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img8{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img9{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img10{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img11{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img12{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img13{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img14{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img15{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img16{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img17{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img18{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img19{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img20{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img21{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img22{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img23{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img24{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     .img25{
         /* padding-left: 62em; */
-        padding-top: 8em;
+        padding-top: 7em;
     }
     
  }
