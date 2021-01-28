@@ -19,9 +19,9 @@ body{
 
     .wyler-back{
         background: url(../img/BKG2.JPG);
-        width: 560px;
+        width: 612px;
         /* background: url(../img/Background\ White\ 50.jpg); */
-        background-size: 150%;
+        background-size: 170%;
         background-position: center;
         padding: 7em 0;
     }
@@ -42,7 +42,106 @@ body{
     }
 
 
+    .img0{
+        margin-top: 3em;
+        /* padding-left: -2px ; */
+
+    }
+
+    .img1{
+        margin-top: 3em;
+        /* padding-left: 3.8em; */
+    }
+    .img2{
+        /* padding-left: 19em; */
+        margin-top: 3em;
+    }
+    .img3{
+        /* padding-left: 41em; */
+        margin-top: 3em;
+    }
+    .img4{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img5{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img6{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img7{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img8{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img9{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img10{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img11{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img12{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img13{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img14{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img15{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img16{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img17{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img18{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img19{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img20{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
     .img21{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img22{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img23{
+        /* padding-left: 62em; */
+        margin-top: 3em;
+    }
+    .img24{
+        /* padding-left: 62em; */
         margin-top: 3em;
     }
 
@@ -62,7 +161,7 @@ body{
     .han{
         /* background: red; */
         padding-left: 7em;
-        padding-top: 3.5em;
+        /* padding-top: 3.5em; */
         position: unset;
         
         /* margin-left: 5em; */
