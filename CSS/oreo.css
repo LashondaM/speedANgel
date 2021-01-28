@@ -19,7 +19,7 @@ body{
 
     .wyler-back{
         background: url(../img/BKG2.JPG);
-        width: 600px;
+        width: 560px;
         /* background: url(../img/Background\ White\ 50.jpg); */
         background-size: 150%;
         background-position: center;
@@ -29,7 +29,7 @@ body{
 
     img{
         transition: 1s;
-        width: 200px;
+        /* width: 215px; */
         /* overflow-x: hidden; */
         /* background: red; */
         /* margin: 0 -62px; */
@@ -37,8 +37,13 @@ body{
     
     img:hover{
         /* z-index: 1; */
-        transform: scale(1.25);
+        transform: scale(1.26);
         /* transition: 1s; */
+    }
+
+
+    .img21{
+        margin-top: 3em;
     }
 
 
@@ -57,7 +62,7 @@ body{
     .han{
         /* background: red; */
         padding-left: 7em;
-        padding-top: 3em;
+        padding-top: 3.5em;
         position: static;
         
         /* margin-left: 5em; */
