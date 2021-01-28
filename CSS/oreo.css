@@ -63,7 +63,7 @@ body{
         /* background: red; */
         padding-left: 7em;
         padding-top: 3.5em;
-        position: static;
+        position: unset;
         
         /* margin-left: 5em; */
     }
