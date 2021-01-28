@@ -4,13 +4,13 @@ $(window).scroll(function(){
     console.log(wScroll)
 
     $('.parallax--bg').css('background-position', 
-    'center '+(wScroll*0.15)+'px')
+    'center '+(wScroll*0.24)+'px')
 
     // $('.parallax--bg').css('top', + (wScroll*.30)*5.2+'em');
 
     $('.han').css('top', + (wScroll*.005)*5.2+'em');
 
-    $('.han').css('right', + (wScroll*.005)*725+'em');
+    $('.han').css('right', + (wScroll*.005)*740+'em');
 
 
 
