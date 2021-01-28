@@ -18,9 +18,10 @@ body{
     }
 
     .wyler-back{
-        background: url(../img/BKG.JPG);
+        background: url(../img/BKG2.JPG);
+        width: 500px;
         /* background: url(../img/Background\ White\ 50.jpg); */
-        background-size: 100%;
+        background-size: 400%;
         background-position: center;
         padding: 7em 0;
     }
@@ -143,8 +144,6 @@ body{
         /* padding-left: 62em; */
         padding-top: 2em;
     }
-    
- }
 
 
     .run{
