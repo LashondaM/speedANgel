@@ -20,17 +20,18 @@ body{
 
     .wyler-back{
         background: url(../img/BKG2.JPG);
-        width: 612px;
+        width: 630px;
         /* background: url(../img/Background\ White\ 50.jpg); */
         background-size: 170%;
         background-position: center;
-        padding: 5em 0;
+        padding: 0em 0;
     }
 
 
     img{
         transition: 1s;
         width: 420px;
+        margin-top: 5em;
         /* overflow-x: hidden; */
         /* background: red; */
         /* margin: 0 -62px; */
@@ -43,114 +44,42 @@ body{
     }
 
 
-    .b{
+    .b, .j, .p{
+        width: 453px;
+    }
+
+    .d, .m, .r, .v{
         width: 440px;
     }
 
-
-    .img0{
-        margin-top: 3em;
-        /* padding-left: -2px ; */
-
+    .e, .k{
+        width: 445px;
     }
 
-    .img1{
-        margin-top: 3em;
-        /* padding-left: 3.8em; */
-    }
-    .img2{
-        /* padding-left: 19em; */
-        margin-top: 3em;
-    }
-    .img3{
-        /* padding-left: 41em; */
-        margin-top: 3em;
-    }
-    .img4{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img5{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img6{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img7{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img8{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img9{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img10{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img11{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img12{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img13{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img14{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img15{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img16{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img17{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img18{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img19{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img20{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img21{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img22{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img23{
-        /* padding-left: 62em; */
-        margin-top: 3em;
-    }
-    .img24{
-        /* padding-left: 62em; */
-        margin-top: 3em;
+    .f, .g, .h, .i{
+        width: 452px;
     }
 
+    .n, .o, .s, .t, .u{
+        width: 470px;
+    }
+
+    .l, .Q, .w, .x, .y{
+        width: 493px;
+    }
+
+
+    .l, .n, .Q, .t, .w, .x{
+        margin-top: -1em;
+    }
+
+    .d, .e, .k, .r, .t{
+        margin-top: 2em;
+    }
+
+    .v{
+        margin-top: 8em;
+    }
 
     .run{
         /* flex-wrap: wrap; */
@@ -181,7 +110,7 @@ body{
         background: url(../img/Background\ White\ 50.jpg);
         background-size: cover;
         background-position: center;
-        padding: 11.7em 0;
+        padding: 16em 0;
     }
     
     
@@ -204,6 +133,7 @@ body{
         transition: 1s;
         margin: 0 -103px;
         width: 400px;
+        margin-top: -1px;
         /* background: red; */
     }
     
@@ -213,127 +143,48 @@ body{
         /* transition: 1s; */
     }
 
-
-    .img0{
-        padding-top: 2em;
-        /* padding-left: -2px ; */
-
+    .a:hover{
+        transform: scale(1.1);
     }
 
-    .img1{
-        padding-top: 2em;
-        /* padding-left: 3.8em; */
+    .c, .v, .y{
+        margin-left: -150px;
     }
-    .img2{
-        /* padding-left: 19em; */
-        padding-top: 2em;
-    }
-    .img3{
-        /* padding-left: 41em; */
-        padding-top: 2em;
-    }
-    .img4{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img5{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img6{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img7{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img8{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img9{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img10{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img11{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img12{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img13{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img14{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img15{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img16{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img17{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img18{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img19{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img20{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img21{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img22{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img23{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    .img24{
-        /* padding-left: 62em; */
-        padding-top: 2em;
-    }
-    
- }
 
+    .l, .u, .Q{
+        margin-left: -120px;
+    }
 
- /* @media (min-width: 1024px) {
-     body{
-         max-width: 100%;
-         max-height: 100%;
-         overflow-x: hidden;
-     }
- } */
+    .m{
+        margin-left: -155px;
+    }
 
+    .n{
+        margin-left: -160px;
+    }
 
+    .o, .p{
+        margin-left: -170px;
+    }
+
+    .r, .s{
+        margin-left: -130px;
+    }
+
+    .w{
+        margin-left: -140px;
+    }
+
+    .x{
+        margin-left: -190px;
+    }
+
+}
 
 /* media query end */
 
 
 
-.parallax--bg, .han{
+.parallax--bg{
 	transition: initial;
 }
