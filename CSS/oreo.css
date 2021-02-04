@@ -281,7 +281,7 @@ and (max-width: 1023){
 
 
 @media screen
-    and (min-width: 3700px) 
+    and (min-width: 3840px) 
     and (min-height: 2160px) 
     /* and (-webkit-min-device-pixel-ratio: 1) */
     {
@@ -294,7 +294,7 @@ and (max-width: 1023){
             background: url(../img/Background\ White\ 50.jpg);
             background-size: cover;
             background-position: center;
-            padding: 73em 0;
+            padding: 60em 0;
         }
 
         .run{
