@@ -110,7 +110,10 @@ body{
  }
 
 
-@media screen and (min-width: 992px) { 
+@media screen and (min-width: 992px) 
+and (max-width: 1023){ 
+/* add a max width and see what happens for this break point */
+
 
     .wyler-back{
         background: url(../img/Background\ White\ 50.jpg);
@@ -294,8 +297,69 @@ body{
             padding: 73em 0;
         }
 
+        .run{
+            /* display: flex; */
+            flex-wrap: nowrap;
+            display: inline-flex;
+            /* white-space: nowrap; */
+            /* justify-content: space-between; */
+            /* padding: 0 -20px; */
+            
+        }
+    
+        .run{
+            margin-left: 7.8em;
+        }
+    
+    
         img{
+            transition: 1s;
+            margin: 0 -103px;
+            width: 400px;
+            margin-top: -1px;
             /* background: red; */
+        }
+        
+        img:hover{
+            /* z-index: 1; */
+            transform: scale(1.25);
+            /* transition: 1s; */
+        }
+    
+        .a:hover{
+            transform: scale(1.1);
+        }
+    
+        .c, .v, .y{
+            margin-left: -150px;
+        }
+    
+        .l, .u, .Q{
+            margin-left: -120px;
+        }
+    
+        .m{
+            margin-left: -155px;
+        }
+    
+        .n{
+            margin-left: -160px;
+        }
+    
+        .o, .p{
+            margin-left: -170px;
+        }
+    
+        .r, .s{
+            margin-left: -130px;
+        }
+    
+        .w{
+            margin-left: -140px;
+        }
+    
+        .x{
+            margin-left: -190px;
         }
 }
 
