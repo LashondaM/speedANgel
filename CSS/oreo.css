@@ -278,13 +278,13 @@ body{
 
 
 @media screen
-    and (min-width: 3840px) 
+    and (min-width: 3700px) 
     and (min-height: 2160px) 
     /* and (-webkit-min-device-pixel-ratio: 1) */
     {
 
         body{
-            /* height: 6000px; */
+            height: 6000px;
         }
 
         .wyler-back{
