@@ -11,7 +11,7 @@ body{
 
 /* media queries start */
 
-@media screen and (max-width: 770px) { 
+@media screen and (max-width: 768px) { 
     
     body{
         /* overflow-x: hidden; */
