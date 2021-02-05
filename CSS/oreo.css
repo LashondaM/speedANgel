@@ -110,9 +110,8 @@ body{
  }
 
 
-@media screen and (min-width: 992px)
-    and (max-width: 2000px) { 
-/* add a max width and see what happens for this break point */
+@media screen and (min-width: 992px) { 
+/* add a max width and see what happens for this break */
 
 
     .wyler-back{
@@ -142,7 +141,7 @@ body{
         transition: 1s;
         margin: 0 -103px;
         width: 400px;
-        margin-top: -1px;
+        margin-top: -1.5px;
         /* background: red; */
     }
     
@@ -192,7 +191,7 @@ body{
 
 
 @media only screen 
-  and (max-width: 1024px) 
+  and (min-width: 1024px) 
   and (max-height: 1366px) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
 
@@ -281,7 +280,7 @@ body{
 
 
 @media screen
-    and (min-width: 3840px) 
+    and (min-width: 3700px) 
     and (min-height: 2160px) 
     /* and (-webkit-min-device-pixel-ratio: 1) */
     {
@@ -294,72 +293,11 @@ body{
             background: url(../img/Background\ White\ 50.jpg);
             background-size: cover;
             background-position: center;
-            padding: 60em 0;
+            padding: 73em 0;
         }
 
-        .run{
-            /* display: flex; */
-            flex-wrap: nowrap;
-            display: inline-flex;
-            /* white-space: nowrap; */
-            /* justify-content: space-between; */
-            /* padding: 0 -20px; */
-            
-        }
-    
-        .run{
-            margin-left: 7.8em;
-        }
-    
-    
         img{
-            transition: 1s;
-            margin: 0 -103px;
-            width: 400px;
-            margin-top: -1px;
             /* background: red; */
-        }
-        
-        img:hover{
-            /* z-index: 1; */
-            transform: scale(1.25);
-            /* transition: 1s; */
-        }
-    
-        .a:hover{
-            transform: scale(1.1);
-        }
-    
-        .c, .v, .y{
-            margin-left: -150px;
-        }
-    
-        .l, .u, .Q{
-            margin-left: -120px;
-        }
-    
-        .m{
-            margin-left: -155px;
-        }
-    
-        .n{
-            margin-left: -160px;
-        }
-    
-        .o, .p{
-            margin-left: -170px;
-        }
-    
-        .r, .s{
-            margin-left: -130px;
-        }
-    
-        .w{
-            margin-left: -140px;
-        }
-    
-        .x{
-            margin-left: -190px;
         }
 }
 
