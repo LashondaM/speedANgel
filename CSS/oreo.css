@@ -11,104 +11,6 @@ body{
 
 /* media queries start */
 
-@media screen and (max-width: 768px) { 
-    
-    body{
-        /* overflow-x: hidden; */
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-
-    .wyler-back{
-        background: url(../img/BKG2.JPG);
-        width: 630px;
-        /* background: url(../img/Background\ White\ 50.jpg); */
-        background-size: 170%;
-        background-position: center;
-        padding: 0em 0;
-    }
-
-
-    img{
-        transition: 1s;
-        width: 420px;
-        margin-top: 5em;
-        /* overflow-x: hidden; */
-        /* background: red; */
-        /* margin: 0 -62px; */
-    }
-    
-    img:hover{
-        /* z-index: 1; */
-        transform: scale(1.26);
-        /* transition: 1s; */
-    }
-
-
-    .b, .j, .p{
-        width: 453px;
-    }
-
-    .d, .m, .r, .v{
-        width: 440px;
-    }
-
-    .e, .k{
-        width: 445px;
-    }
-
-    .f, .g, .h, .i{
-        width: 452px;
-    }
-
-    .n, .o, .s, .t, .u{
-        width: 470px;
-    }
-
-    .l, .Q, .w, .x, .y{
-        width: 493px;
-    }
-
-
-    .l, .n, .Q, .t, .w, .x{
-        margin-top: -1em;
-    }
-
-    .d, .e, .k, .r, .t{
-        margin-top: 6.5em;
-    }
-
-    .v{
-        margin-top: 8em;
-    }
-
-    .v, .w, .y{
-        padding-left: 2em;
-    }
-
-    .run{
-        /* flex-wrap: wrap; */
-        display: unset;
-         /* position: static; */
-        /* justify-content: center; */
-    }
-
-    /* .wyler-back{
-        padding: 5em 0;
-        background-size: 10%;
-    } */
-
-    .han{
-        /* background: red; */
-        padding-left: 7em;
-        /* padding-top: 3.5em; */
-        position: unset;
-        
-        /* margin-left: 5em; */
-    }
-    
- }
-
 
 @media screen and (min-width: 992px) { 
 /* add a max width and see what happens for this break */
@@ -191,7 +93,7 @@ body{
 
 
 @media only screen 
-  and (min-width: 1024px) 
+  and (max-width: 1024px) 
   and (max-height: 1366px) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
 
@@ -203,7 +105,7 @@ body{
     .wyler-back{
         background: url(../img/BKG2.JPG);
         width: 1024px;
-        background-size: 150%;
+        background-size: 180%;
         background-position: center;
         padding: 0em 0;
     }
@@ -227,27 +129,27 @@ body{
 
 
     .b, .j, .p{
-        width: 453px;
+        width: 600px;
     }
 
     .d, .m, .r, .v{
-        width: 440px;
+        width: 590px;
     }
 
     .e, .k{
-        width: 445px;
+        width: 595px;
     }
 
     .f, .g, .h, .i{
-        width: 452px;
+        width: 599px;
     }
 
     .n, .o, .s, .t, .u{
-        width: 470px;
+        width: 620px;
     }
 
     .l, .Q, .w, .x, .y{
-        width: 493px;
+        width: 650px;
     }
 
 
